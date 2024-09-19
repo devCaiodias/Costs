@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.itens {
+    margin-right: 1em;
+}
+
+.itens a {
+    color: white;
+    text-decoration:  none;
+}
+
+.itens a:hover {
+    color: rgb(255, 196, 0);
+}

@@ -10,28 +10,6 @@
       },
       "cost": 0,
       "services": []
-    },
-    {
-      "id": "255c",
-      "name": "locadora",
-      "budget": "2558",
-      "categories": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "cdfc",
-      "name": "Anime",
-      "budget": "2000",
-      "categories": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": []
     }
   ],
   "categories": [

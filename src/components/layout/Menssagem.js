@@ -10,8 +10,7 @@ function Menssagem({type, msg}) {
         if(!msg) {
             setVisible(false)
             return
-        }
-
+        }     
         setVisible(true)
 
         const timer = setTimeout(() => {

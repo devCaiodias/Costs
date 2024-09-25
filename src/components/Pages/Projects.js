@@ -12,6 +12,7 @@ import Loading from "../layout/Loading";
 function Projects() {
     const [projects, setProjects] = useState([]) 
     const [removeLoading, setRemoveLoading] = useState(false)
+    const [projectMessagem, setProjectMessagem ] = useState('')
 
     const location = useLocation();
 
@@ -35,8 +36,26 @@ function Projects() {
                     setProjects(data)
                     setRemoveLoading(true)
                 }).catch(err => console.log(err))
-        }, 1000)
+        }, 500)
     }, [])
+
+    function removeProject(id) {
+        fetch(`http://localhost:5000/projects/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(resp => resp.json())
+        .then(data => {
+            setProjects(projects.filter((projects => projects.id !== id )))
+            setProjectMessagem('Projeto removido com susseso')
+
+
+        })
+        .catch(err => console.log(err))
+        
+        
+    }
 
     return (
         <div className={styles.project_container}>
@@ -45,6 +64,7 @@ function Projects() {
                 <LinkButton to="/NewProjet" text="Criar Projeto" />
             </div>
             {mensagem && <Mensagem msg={mensagem} type="sucesso" />}
+            {projectMessagem && <Mensagem msg={projectMessagem} type="sucesso" />}
             <Container customClass="start">
                 {projects.length > 0 && projects.map((projects) => {
                     return (
@@ -53,7 +73,9 @@ function Projects() {
                             name={projects.name}
                             budget={projects.budget}
                             category={projects.categories ? projects.categories.name : "Sem Categoria"}
-                            key={projects.id} />
+                            key={projects.id}
+                            handleRemove={removeProject} />
+                            
                     );
                 })}
                 {!removeLoading && <Loading />}

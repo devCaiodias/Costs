@@ -45,17 +45,6 @@
       "services": []
     },
     {
-      "id": "0b11",
-      "name": "site",
-      "budget": "7100",
-      "categories": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "d8b0",
       "name": "site de faculdade",
       "budget": "6000",
@@ -84,28 +73,6 @@
       "categories": {
         "id": "3",
         "name": "Design"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "4718",
-      "name": "a",
-      "budget": "544454",
-      "categories": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "e543",
-      "name": "a",
-      "budget": "2255",
-      "categories": {
-        "id": "2",
-        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []

@@ -10,7 +10,7 @@ function NewProjet() {
         project.cost = 0;
         project.services = [];
 
-        fetch('http://localhost:5000/projects', {
+        fetch('https://json-test-three-rho.vercel.app/projects', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

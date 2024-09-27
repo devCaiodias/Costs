@@ -38,13 +38,13 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 400,
+      "cost": 600,
       "services": [
         {
-          "name": "Que um dev front",
-          "cost": "400",
-          "description": "para fazer a interface do meu jogo",
-          "id": "833cf6c5-a80d-401b-8d93-4f87dc42f4c8"
+          "name": "Dev Font",
+          "cost": "600",
+          "description": "Criar a interface do meu jogo ",
+          "id": "f766dff5-3e6f-4ba8-bb84-356193b5d007"
         }
       ]
     },

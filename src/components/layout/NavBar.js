@@ -16,12 +16,6 @@ function NavBar() {
                     <li className={styles.itens}>
                         <Link to="/Projects">Projetos</Link>
                     </li>
-                    <li className={styles.itens}>
-                        <Link to="/Company">Empresa</Link>
-                    </li>
-                    <li className={styles.itens}>
-                        <Link to="/contato">Contato</Link>
-                    </li>
                 </ul>
             </Container>
         </nav>

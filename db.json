@@ -38,8 +38,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 400,
+      "services": [
+        {
+          "name": "Que um dev front",
+          "cost": "400",
+          "description": "para fazer a interface do meu jogo",
+          "id": "833cf6c5-a80d-401b-8d93-4f87dc42f4c8"
+        }
+      ]
     },
     {
       "id": "ab90",
@@ -49,8 +56,15 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": []
+      "cost": 500,
+      "services": [
+        {
+          "name": "Contratar dev fullStack",
+          "cost": "500",
+          "description": "Fazer o site completo para min ",
+          "id": "ac92f7b0-6bcd-4b27-8b73-d96ce3d1b752"
+        }
+      ]
     },
     {
       "id": "e5f5",

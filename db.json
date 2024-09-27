@@ -8,8 +8,27 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 360,
+      "services": [
+        {
+          "name": "Meu novo serviço ",
+          "cost": "10",
+          "description": "Faz sso",
+          "id": "7ef82e3b-cece-421b-a3ba-8972d530aaca"
+        },
+        {
+          "name": "Meu novo serviço 2",
+          "cost": "100",
+          "description": "Faz sso",
+          "id": "531af5dd-30bd-4254-9e26-29f2ad7e5436"
+        },
+        {
+          "name": "Meu novo serviço 3",
+          "cost": "250",
+          "description": "Faz sso",
+          "id": "1d535649-4f4e-423c-b17d-66c1f64240c4"
+        }
+      ]
     },
     {
       "id": "495b",
